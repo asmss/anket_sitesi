@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "heroku-postbuild": "npm --prefix backend install"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "firebase": "^12.7.0",
+    "firebase-admin": "^13.6.0"
+  }
+}
